@@ -1,0 +1,161 @@
+{
+  "info": {
+    "_postman_id": "af789577-ec99-4bae-a34a-655c36e21dfd",
+    "name": "LeaveHub API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53273665",
+    "_collection_link": "https://go.postman.co/collection/53273665-af789577-ec99-4bae-a34a-655c36e21dfd?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "{{base_url}}/api/login",
+      "request": {
+        "method": "POST",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/user",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/logout",
+      "request": {
+        "method": "POST",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/leave-types",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/user/dashboard",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/user/leave-requests",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/user/leave-requests",
+      "request": {
+        "method": "POST",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/user/leave-requests/{id}/cancel",
+      "request": {
+        "method": "PATCH",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/user/leave-requests/{id}",
+      "request": {
+        "method": "DELETE",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/admin/leave-requests",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/admin/leave-requests/{id}/approve",
+      "request": {
+        "method": "POST",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/admin/leave-requests/{id}/reject",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/admin/leave-requests/{id}",
+      "request": {
+        "method": "DELETE",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/admin/users",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/admin/users",
+      "request": {
+        "method": "POST",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/admin/users/{id}",
+      "request": {
+        "method": "PUT",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/admin/users/{id}",
+      "request": {
+        "method": "DELETE",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "{{base_url}}/api/admin/users/generate-balances",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    }
+  ]
+}
