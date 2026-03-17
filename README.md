@@ -34,3 +34,7 @@ Aplikasi Fullstack Web untuk pengelolaan cuti karyawan. Proyek ini dibangun untu
 
 ## Dokumentasi API
 File dokumentasi API dalam format JSON Collection tersedia di folder root dengan nama: **`Leave_Request_API.postman_collection.json`**. Silakan import file tersebut ke Postman, Insomnia, atau Bruno.
+
+## Cara Menjalankan Testing
+1. Masuk ke folder backend: `cd backend`
+2. Jalankan perintah: `php artisan test`
